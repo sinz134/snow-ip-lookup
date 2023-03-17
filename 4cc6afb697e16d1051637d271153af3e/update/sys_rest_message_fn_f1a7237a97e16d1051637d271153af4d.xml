@@ -5,26 +5,26 @@
         <basic_auth_profile/>
         <basic_auth_user/>
         <content/>
-        <function_name>Default GET</function_name>
+        <function_name>GetIPInfo</function_name>
         <http_method>get</http_method>
         <lock>false</lock>
         <oauth2_profile/>
         <protocol_name/>
-        <qualified_name>IPInfo [ Default GET ]</qualified_name>
-        <rest_endpoint>http://ipinfo.io/</rest_endpoint>
+        <qualified_name>IPInfo [ GetIPInfo ]</qualified_name>
+        <rest_endpoint>https://ipinfo.io/${ipaddress}/${specific_field}</rest_endpoint>
         <rest_message display_value="IPInfo">7a57237a97e16d1051637d271153af42</rest_message>
         <sys_class_name>sys_rest_message_fn</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-03-17 07:34:57</sys_created_on>
         <sys_id>f1a7237a97e16d1051637d271153af4d</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_name>Default GET</sys_name>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>GetIPInfo</sys_name>
         <sys_package display_value="IPLookup" source="x_1007530_iplookup">4cc6afb697e16d1051637d271153af3e</sys_package>
         <sys_policy/>
         <sys_scope display_value="IPLookup">4cc6afb697e16d1051637d271153af3e</sys_scope>
         <sys_update_name>sys_rest_message_fn_f1a7237a97e16d1051637d271153af4d</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-03-17 07:34:57</sys_updated_on>
+        <sys_updated_on>2023-03-17 07:45:05</sys_updated_on>
         <use_basic_auth>false</use_basic_auth>
         <use_mid_server/>
         <use_mutual_auth>false</use_mutual_auth>
